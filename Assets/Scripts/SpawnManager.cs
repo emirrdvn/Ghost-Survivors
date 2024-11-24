@@ -7,7 +7,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject enemyPrefab; // Üretilecek düşman prefab'i
     public Transform enemyParent;  // Düşmanların toplanacağı parent nesne
     public float spawnInterval = 1.0f; // Düşmanların üretim aralığı
-    private bool isSpawning = true; // Düşman üretimi devam ediyor mu?
+    public bool isSpawning = true; // Düşman üretimi devam ediyor mu?
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +37,7 @@ public class SpawnManager : MonoBehaviour
         // Düşmanın üretileceği rastgele bir pozisyon belirleyin (örnek)
         float xPos = Random.Range(-43f, 43f);
         float zPos = Random.Range(-43f, 43f);
-        return new Vector3(xPos, 2, zPos);
+        return new Vector3(xPos, Random.Range(0f, 10f), zPos);
     }
     public void StopSpawning()
     {

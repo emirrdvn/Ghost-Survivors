@@ -19,11 +19,9 @@ public class PlayerMovement : MonoBehaviour
 
     bool isMoving;
     public int health = 100;
+    [SerializeField]
     public SpawnManager spawnManager;
-    public float knockbackDuration = 0.5f; // Duration of the knockback effect
-    public float knockbackForce = 5f;      // Strength of the knockback
-    private Vector3 knockbackDirection;
-    private float knockbackTimer;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -84,26 +82,14 @@ public class PlayerMovement : MonoBehaviour
         {
             //Debug.Log("Player has died");
             Debug.Log("Player hp" + health);
+            Destroy(this.gameObject);
+            spawnManager.StopSpawning();
         }
         // Debug.Log("Player has been damaged");
     }
-    public void Knockback()
-    {
-        knockbackDirection = (transform.position - this.transform.position).normalized;
+    
 
-        // Set the knockback timer
-        knockbackTimer = knockbackDuration;
-        if (knockbackTimer > 0)
-        {
-            // Decrease the timer
-            knockbackTimer -= Time.deltaTime;
-
-            // Move the CharacterController in the knockback direction
-            controller.Move(knockbackDirection * knockbackForce * Time.deltaTime);
-        }
-    }
-
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    /*private void OnControllerColliderHit(GameObject hit)
     {
 
         if (hit.gameObject.tag == "Enemy")
@@ -116,5 +102,5 @@ public class PlayerMovement : MonoBehaviour
             
         }
         
-    }
+    }*/
 }

@@ -17,22 +17,13 @@ public class Bullet : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        //print("Bullet collided with " + collision.gameObject.name);
-        if (collision.gameObject.tag == "Enemy")
-        {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-        }
-        if (collision.gameObject.tag == "Gun")
-        {
-            return;
-        }
-        else
+    private void OnTriggerEnter(Collider collision)
+    {   
+        Debug.Log("Collision detected"+ collision.gameObject.tag);
+        
         if (collision.gameObject.tag == "Ground")
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
         
         
