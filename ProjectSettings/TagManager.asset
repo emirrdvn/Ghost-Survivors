@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - Bullet
   - Effect
+  - DontKeep
+  - SoundSlider
+  - Ghost
   layers:
   - Default
   - TransparentFX

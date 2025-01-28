@@ -14,14 +14,20 @@ public class Weapon : MonoBehaviour
     [SerializeField]
     float fireRate = 2f; // Ateş etme hızı
     private float nextFireTime = 0f; // Bir sonraki ateş zamanı
+    PauseScript pauseMenuUI;
     void Start()
     {
-
+        pauseMenuUI = GameObject.Find("GameManager").GetComponent<PauseScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (pauseMenuUI.isPaused)
+        {
+            return;
+        }
+        
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
