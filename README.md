@@ -19,7 +19,7 @@ Play the game here: [Ghost Survivors on Itch.io](https://emirrdvn.itch.io/ghost-
 The main menu is where the player starts the game. In the middle, there is a button that starts the first chapter of the game. In the top right corner, there is the game's logo. At the bottom right corner, you will find a slider to control the game's master volume.
 
 ### Pause Menu
-When the player presses the "Escape" key during gameplay, the game will pause. The screen will dim slightly, but the player will still be able to see the ongoing game. Pressing the "Escape" key again will resume the game. The player can also return to the main menu by pressing the "Main Menu" button, which is centered on the screen.
+When the player presses the "Escape" key during gameplay, the game will pause. The screen will dim slightly, but the player will still be able to see the ongoing game. Pressing the "Escape" key or pressing to "Resume" button will resume the game. The player can also return to the main menu by pressing the "Return Main Menu" button, which is centered on the screen.
 
 ### Asynchronous Scene Transitions
 The game includes dynamic scene transitions where the player can move from one map to another without interruptions. When the player presses the "Enter" key, the scene will transition to a new environment with a different layout and terrain.
