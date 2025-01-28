@@ -8,25 +8,32 @@ public class EnemyMovement : MonoBehaviour
     public GameObject enemy;
     public float speed = 1.0f;
     public GameObject EffectPrefab;
+    
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        
+        
         // Eğer player sahnede her zaman "Body" ismiyle varsa, baştan atanabilir
         if (player == null)
         {
             player = GameObject.Find("Body");
         }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         EnemyMovementFunc();
+        
     }
 
     void EnemyMovementFunc()
     {
+        
         // Eğer oyuncu bulunamıyorsa sahnede aramaya devam eder
         if (player == null)
         {

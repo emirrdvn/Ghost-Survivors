@@ -10,16 +10,23 @@ public class PlayerSC : MonoBehaviour
 
     public float topClamp = 90f;
     public float bottomClamp = -90f;
+
+    PauseScript pauseMenuUI;
     // Start is called before the first frame update
     void Start()
     {
         // Hide and lock the cursor
+        pauseMenuUI = GameObject.Find("GameManager").GetComponent<PauseScript>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (pauseMenuUI.isPaused)
+        {
+            return;
+        }
         // Get the mouse input
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
