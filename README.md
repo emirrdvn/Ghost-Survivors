@@ -30,6 +30,26 @@ The game includes dynamic scene transitions where the player can move from one m
 - **Ghost Sounds**: Ghosts emit unique sound effects
 ---
 
+## Animations
+
+This project includes animations that represent different movements and attacks of the ghost character. The animations cover the following key states to accurately reflect the character's dynamics throughout the game.
+
+## Animation States
+
+### 1. **Run**
+In this animation, the ghost moves rapidly. The running animation is used when the character is moving at high speed. This animation is continuously active while the player is moving around the game world.
+
+### 2. **Idle**
+The ghost character enters this animation when it is not performing any actions. The idle animation represents moments when the character stands still, typically used during resting or observing the surroundings.
+
+### 3. **Attack Shift**
+Before launching an attack, the ghost enters this animation. It simulates the movement of the character as it shifts into an attacking position. This animation typically lasts for a fraction of a second, right before the attack begins.
+
+### 4. **Attack**
+This animation shows the ghost character performing an attack on an enemy. It represents the physical action of the attack, where the character aims at a target and uses an object (such as a hand or weapon) to deal damage.
+
+---
+
 ### Gameplay
 
 In Ghost Survivors, your objective is to survive for as long as possible while defeating waves of ghost enemies. The gameplay is intuitive and action-packed, with the following mechanics:  
