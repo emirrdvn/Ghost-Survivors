@@ -2,7 +2,7 @@
 
 Play the game here: [Ghost Survivors on Itch.io](https://emirrdvn.itch.io/ghost-survivors)
 
-## Görev Paylaşım Tablosu  
+## Developer Contributions 
 | #      | Arda Aydın Kılınç - 21360859039       | Emir Rıdvan Toraman - 22360859061       |  
 |--------|----------------------------------------|-------------------------------------------|  
 | 1      | Ana Menü (10x)                         | Ana Menü (20x)                           |  
