@@ -28,25 +28,13 @@ The game includes dynamic scene transitions where the player can move from one m
 - **Background Music**: The game has its own background music.
 - **Fireball Sound Effect**: When casting a fireball, a special sound and effect will trigger.
 - **Ghost Sounds**: Ghosts emit unique sound effects
----
 
-# Animations
-
-This project includes animations that represent different movements and attacks of the ghost character. The animations cover the following key states to accurately reflect the character's dynamics throughout the game.
-
-## Animation States
-
-### 1. **Run**
-In this animation, the ghost moves rapidly. The running animation is used when the character is moving at high speed. This animation is continuously active while the player is moving around the game world.
-
-### 2. **Idle**
-The ghost character enters this animation when it is not performing any actions. The idle animation represents moments when the character stands still, typically used during resting or observing the surroundings.
-
-### 3. **Attack Shift**
-Before launching an attack, the ghost enters this animation. It simulates the movement of the character as it shifts into an attacking position. This animation typically lasts for a fraction of a second, right before the attack begins.
-
-### 4. **Attack**
-This animation shows the ghost character performing an attack on an enemy. It represents the physical action of the attack, where the character aims at a target and uses an object (such as a hand or weapon) to deal damage.
+## Animations  
+The Ghost object in the game includes the following animations:  
+- Running animation  
+- Attack start animation    
+- Attack animation  
+- Idle animation  
 
 ---
 
