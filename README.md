@@ -30,7 +30,7 @@ The game includes dynamic scene transitions where the player can move from one m
 - **Ghost Sounds**: Ghosts emit unique sound effects
 ---
 
-## Animations
+# Animations
 
 This project includes animations that represent different movements and attacks of the ghost character. The animations cover the following key states to accurately reflect the character's dynamics throughout the game.
 
