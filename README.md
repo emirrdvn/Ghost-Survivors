@@ -2,12 +2,11 @@
 
 Play the game here: [Ghost Survivors on Itch.io](https://emirrdvn.itch.io/ghost-survivors)
 
-## Görev Paylaşım Tablosu 
-
-| #      | Arda Aydın Kılınç - 21360859039        | Emir Rıdvan Toraman - 22360859061        |  
-|--------|----------------------------------------|------------------------------------------|  
+## Görev Paylaşım Tablosu  
+| #      | Arda Aydın Kılınç - 21360859039       | Emir Rıdvan Toraman - 22360859061       |  
+|--------|----------------------------------------|-------------------------------------------|  
 | 1      | Ana Menü (10x)                         | Ana Menü (20x)                           |  
-| 2      | Duraklatma Menüsü(10x)                 | Duraklatma Menüsü (10x)                  |  
+| 2      | Duraklatma Menüsü(10x)                 | Duraklatma Menüsü (10x)                   |  
 | 3      | Animasyonlar (30x)                     |                                          |  
 | 4      | Asenkronizasyon (10x)                  |                                          |  
 | 5      |                                        | Ses ve Müzik (30x)                       |  
@@ -58,10 +57,9 @@ The following Unity Asset Store assets were used in the game. We appreciate the 
    Utilized as the enemy character model in the game.  
 
 4. **[3D Items Free Wand Pack](https://assetstore.unity.com/packages/3d/props/weapons/3d-items-free-wand-pack-46225)**  
-5. **[Background Music](https://cdn.freesound.org/sounds/415/415807-5ba9fb1d-8a89-49ea-871a-797fa638123a?filename=415807__sunsai__candyworld-background-music.wav) **
-6. ** [Fireball Voice](https://cdn.pixabay.com/download/audio/2023/11/30/audio_52fef98037.mp3?filename=fireball-whoosh-3-179127.mp3)**
-7. **[Ghost Voice](https://cdn.pixabay.com/download/audio/2025/01/23/audio_3bbd0027bd.mp3?filename=cute-alien-noises-291369.mp3) **
-   Used for player shooting mechanics with stylized wand models.  
+5. **[Background Music](https://cdn.freesound.org/sounds/415/415807-5ba9fb1d-8a89-49ea-871a-797fa638123a?filename=415807__sunsai__candyworld-background-music.wav)**
+6. **[Fireball Voice](https://cdn.pixabay.com/download/audio/2023/11/30/audio_52fef98037.mp3?filename=fireball-whoosh-3-179127.mp3)**
+7. **[Ghost Voice](https://cdn.pixabay.com/download/audio/2025/01/23/audio_3bbd0027bd.mp3?filename=cute-alien-noises-291369.mp3)** 
 
 ---
 
