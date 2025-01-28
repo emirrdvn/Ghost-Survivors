@@ -2,45 +2,45 @@
 
 Play the game here: [Ghost Survivors on Itch.io](https://emirrdvn.itch.io/ghost-survivors)
 
-Ghost Survivors is a thrilling Unity WebGL game where you must survive waves of ghostly enemies using a combination of strategic movement, fireball attacks, and powerful special abilities. This README outlines the game's features, developer contributions, and gameplay mechanics.
+## Görev Paylaşım Tablosu 
 
+| #      | Arda Aydın Kılınç - 21360859039        | Emir Rıdvan Toraman - 22360859061        |  
+|--------|----------------------------------------|------------------------------------------|  
+| 1      | Ana Menü (10x)                         | Ana Menü (20x)                           |  
+| 2      | Duraklatma Menüsü(10x)                 | Duraklatma Menüsü (10x)                  |  
+| 3      | Animasyonlar (30x)                     |                                          |  
+| 4      | Asenkronizasyon (10x)                  |                                          |  
+| 5      |                                        | Ses ve Müzik (30x)                       |  
+| Toplam | (60x)                                  | (60x)                                    |  
+
+
+## New Features
+
+### Main Menu
+The main menu is where the player starts the game. In the middle, there is a button that starts the first chapter of the game. In the top right corner, there is the game's logo. At the bottom right corner, you will find a slider to control the game's master volume.
+
+### Pause Menu
+When the player presses the "Escape" key during gameplay, the game will pause. The screen will dim slightly, but the player will still be able to see the ongoing game. Pressing the "Escape" key again will resume the game. The player can also return to the main menu by pressing the "Main Menu" button, which is centered on the screen.
+
+### Asynchronous Scene Transitions
+The game includes dynamic scene transitions where the player can move from one map to another without interruptions. When the player presses the "Enter" key, the scene will transition to a new environment with a different layout and terrain.
+
+### Sound and Music
+- **Background Music**: The game has its own background music.
+- **Fireball Sound Effect**: When casting a fireball, a special sound and effect will trigger.
+- **Ghost Sounds**: Ghosts emit unique sound effects
 ---
 
-## Gameplay
+### Gameplay
 
 In Ghost Survivors, your objective is to survive for as long as possible while defeating waves of ghost enemies. The gameplay is intuitive and action-packed, with the following mechanics:  
 
 - **Movement**: Navigate the environment using `W`, `A`, `S`, and `D` keys.  
 - **Jumping**: Press `Space` to jump and evade enemies.  
 - **Fireball Attack**: Use **Left Click** to shoot fireball projectiles at enemies.  
-- **Special Ability**: Trigger a devastating "rain of fire" ability with **Right Click** to deal massive damage to multiple enemies at once.  
-
-### Player Health
-- The player starts with **100 Health Points (HP)**.  
-- Each collision with a ghost enemy reduces the player's health by **10 HP**.  
-- The game ends when the player’s health reaches **0 HP**.
-
-Survive as long as possible by dodging enemies and utilizing your abilities strategically.
-
----
-
-## Developer Contributions
-
-### Emir Rıdvan Toraman - 22360859061
-- **Player Movement and Character Control PlayerMovement:sc56 Controller Move with Vector3**: Implemented smooth movement mechanics and ensured ground control to prevent flying.  
-- **Jumping and Ground Control PlayerMovement:sc44 Physics.checkSphere used**: Added jumping functionality for vertical movement.  
-- **Fireball Attack Mechanic (Left Click) Weapon:sc47 Instantiate and RigidBody Addforce**: Developed the shooting system with Rigidbody-based projectile movement.  
-- **Enemy Movement EnemyMovement:sc28 Vector3.MoveTowards**: Designed AI behavior for enemies to navigate toward the player.  
-- **Mouse Movement Restriction MouseMovement:sc28 Mathf.Clamp**: Limited mouse movement to the game window for enhanced control.  
-- **Bullet Destruction Weapon:sc56 Coroutine**: Set a timer for bullet objects to self-destruct after a specific duration to optimize performance.  
-
-### Arda Aydın Kılınç - 21360859039
-- **Mouse Look and Interaction MouseMovement:sc32 Quaternion.Euler**: Integrated mouse-based camera control for player-environment interaction.  
-- **Special Ability (Right Click) Weapon:sc37 Instantiate with UnityEngine.Random**: Designed and implemented the powerful "rain of fire" ability.  
-- **Enemy Spawn System SpawnManager:sc25 Instatiate randomly with Coroutine**: Created a dynamic spawning system for enemies.  
-- **Enemy Rotation EnemyMovement:sc55 Quaternion.LookRotation**: Programmed enemies to rotate and face the player during interactions.  
-- **Enemy Death&BulletCollision& Enemy Death Effects EnemyMovement:sc78 OnTriggerEnter**: Added visual and sound effects for enemy deaths.  
-- **Player HP System PlayerMovement:sc77 Damage()**: Developed a health points system to track and display the player's health and manage game-over conditions.  
+- **Special Ability**: Trigger a devastating "rain of fire" ability with **Right Click** to deal massive damage to multiple enemies at once. 
+- **Enter**: jump into a new structured map.
+- **ESC**: Pauses the game ,and accesses to menu. 
 
 ---
 
@@ -58,6 +58,9 @@ The following Unity Asset Store assets were used in the game. We appreciate the 
    Utilized as the enemy character model in the game.  
 
 4. **[3D Items Free Wand Pack](https://assetstore.unity.com/packages/3d/props/weapons/3d-items-free-wand-pack-46225)**  
+5. **[Background Music](https://cdn.freesound.org/sounds/415/415807-5ba9fb1d-8a89-49ea-871a-797fa638123a?filename=415807__sunsai__candyworld-background-music.wav) **
+6. ** [Fireball Voice](https://cdn.pixabay.com/download/audio/2023/11/30/audio_52fef98037.mp3?filename=fireball-whoosh-3-179127.mp3)**
+7. **[Ghost Voice](https://cdn.pixabay.com/download/audio/2025/01/23/audio_3bbd0027bd.mp3?filename=cute-alien-noises-291369.mp3) **
    Used for player shooting mechanics with stylized wand models.  
 
 ---
@@ -68,4 +71,3 @@ The following Unity Asset Store assets were used in the game. We appreciate the 
 - [emirrdvn](https://github.com/emirrdvn)
 
 Thank you for playing Ghost Survivors!  
-For any feedback or inquiries, please contact us through the Itch.io page.
