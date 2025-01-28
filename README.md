@@ -59,7 +59,7 @@ The following Unity Asset Store assets were used in the game. We appreciate the 
 4. **[3D Items Free Wand Pack](https://assetstore.unity.com/packages/3d/props/weapons/3d-items-free-wand-pack-46225)**  
 5. **[Background Music](https://cdn.freesound.org/sounds/415/415807-5ba9fb1d-8a89-49ea-871a-797fa638123a?filename=415807__sunsai__candyworld-background-music.wav)**
 6. **[Fireball Sound](https://cdn.pixabay.com/download/audio/2023/11/30/audio_52fef98037.mp3?filename=fireball-whoosh-3-179127.mp3)**
-7. **[Ghost Voice](https://cdn.pixabay.com/download/audio/2025/01/23/audio_3bbd0027bd.mp3?filename=cute-alien-noises-291369.mp3)** 
+7. **[Ghost Sound](https://cdn.pixabay.com/download/audio/2025/01/23/audio_3bbd0027bd.mp3?filename=cute-alien-noises-291369.mp3)** 
 
 ---
 
